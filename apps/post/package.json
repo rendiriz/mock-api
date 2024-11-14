@@ -1,0 +1,20 @@
+{
+  "name": "post",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot run src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hono": "^4.6.10",
+    "shared-constants": "workspace:*",
+    "shared-libs": "workspace:*",
+    "shared-utils": "workspace:*"
+  }
+}
